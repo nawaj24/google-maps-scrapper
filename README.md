@@ -1,12 +1,5 @@
 # Google Maps Scraper
 
-This is simple scraper that uses Playwright to extract data from Google Maps. 
-
-This example is made for educational purposese.
-
-This scrapit is easy to customize.
-
-check both Excel & CSV files (google_maps_data) to see how final data will look like. 
 
 ## To Install:
 - (Optional: create & activate a virtual environment) `virtualenv venv`, then `source venv/bin/activate`
@@ -23,22 +16,9 @@ check both Excel & CSV files (google_maps_data) to see how final data will look 
 2. Then run: `python3 main.py` 
 3. If you pass `-t=<how many>` it will be applied to all the searches. 
 
-## Tips:
-If you want to search more than the limited 120 results, detail you search more and as granular as you need it to be in the `input.txt`, for example:
-
-- Instead of using:
-
-`United states dentist`
-
-- Use:
-
-`Unites States Boston dentist`
-
-`Unites States New York dentist`
-
-`Unites States Texas dentist`
-
-And so on... 
+## how to run:
+use virgnia.py file to run the scripts
+'python virgnia.py'
 
 
 
