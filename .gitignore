@@ -1,2 +1,8 @@
 venv
 dev
+final.py
+main.py
+read.txt
+data_cleaning/
+data_mapping/
+/output

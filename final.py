@@ -235,14 +235,14 @@ if __name__ == "__main__":
         # "soccer academy for kids",
         # "soccer camp for kids"
 
-    "summer camps for kids"
-"stem camps"
-"educational camps"
-"science camps"
-"coding camps for kids"
-"robotics camps"
-"kids learning center"
-"educational programs for kids"
-"after school programs for kids"
+    "summer camps for kids",
+"stem camps",
+"educational camps",
+"science camps",
+"coding camps for kids",
+"robotics camps",
+"kids learning center",
+"educational programs for kids",
+"after school programs for kids",
     ]
     scrape(KEYWORDS, ZIPCODES)

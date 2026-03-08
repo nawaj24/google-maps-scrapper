@@ -422,7 +422,7 @@ def scrape(keywords, zipcodes, limit_per_search=80):
 
                 print(f"✅ Finished keyword: {keyword}")
                 # 💾 CRITICAL: Save after EVERY keyword to prevent data loss
-                BusinessList(SCRAPED_RESULTS).save_csv("arlington_")
+                BusinessList(SCRAPED_RESULTS).save_csv("faif")
                 human_sleep(5, 8)
 
         print("\n🎯 ALL ZIP CODES COMPLETED")
@@ -434,27 +434,32 @@ def scrape(keywords, zipcodes, limit_per_search=80):
 if __name__ == "__main__":
     ZIPCODES = [
         # Fairfax, VA ZIP Codes
-        # '20120', '20121', '20122', '20124', '20151', '20152', '20153', '20164', '20166', 
-        # '20170',
-        # '20171', '20172', '20190', '20191', '20192', '20194', '20195', '20196', '22003', '22009',
-        # '22015', '22018', '22019', '22027', '22030', '22031', '22032', '22033', '22035', '22037',
-        # '22038', '22039', '22041', '22042', '22043', '22044', '22046', '22060', '22066', '22067',
-        # '22079', '22081', '22082', '22101', '22102', '22106', '22116', '22121', '22124', '22150',
-        # '22151', '22152', '22153', '22158', '22159', '22160', '22161', '22180', '22181', '22182',
-        # '22183', '22185', '22199', '22213'
-        '22201', '22202', '22203', '22204', '22205', '22206', '22207', '22209', '22210', '22211', '22212', '22213', '22214', '22215', '22216', '22217', '22218', '22219', '22222', '22225', '22226', '22227', '22230', '22240', '22241', '22242', '22243', '22244', '22245', '22246', '20231', '20301', '20310', '20330', '20350', '20406', '20598', '20453'
+        '20120', '20121', '20122', '20124', '20151', '20152', '20153', '20164', '20166', 
+        '20170',
+        '20171', '20172', '20190', '20191', '20192', '20194', '20195', '20196', '22003', '22009',
+        '22015', '22018', '22019', '22027', '22030', '22031', '22032', '22033', '22035', '22037',
+        '22038', '22039', '22041', '22042', '22043', '22044', '22046', '22060', '22066', '22067',
+        '22079', '22081', '22082', '22101', '22102', '22106', '22116', '22121', '22124', '22150',
+        '22151', '22152', '22153', '22158', '22159', '22160', '22161', '22180', '22181', '22182',
+        '22183', '22185', '22199', '22213'
+    #   '22301', '22302', '22303', '22304', '22305', '22306', '22307', '22308', '22309', '22310', '22311', '22312', '22313', '22314', '22315', '22320', '22331', '22332', '22333', '22334'
     ]
 
     KEYWORDS = [
-        "summer camps for kids",
-        "stem camps",
-        "educational camps",
-        "science camps",
-        "coding camps for kids",
-        "robotics camps",
-        "kids learning center",
-        "educational programs for kids",
-        "after school programs for kids",
+        # "summer camps for kids",
+        # "stem camps",
+        # "educational camps",
+        # "science camps",
+        # "coding camps for kids",
+        # "robotics camps",
+        # "kids learning center",
+        # "educational programs for kids",
+        # "after school programs for kids",
+        "kids outdoor adventure summer camp",
+        "adventure based after school program",
+        "outdoor education adventure program for kids",
+        "nature based adventure learning program",
+        "youth outdoor adventure enrichment program"
     ]
 
     scrape(KEYWORDS, ZIPCODES)

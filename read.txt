@@ -1,0 +1,18 @@
+# Restart Tor to apply config
+sudo systemctl restart tor
+
+# Enable auto-start on boot (optional but recommended)
+sudo systemctl enable tor
+
+# Check status
+sudo systemctl status tor
+
+# if not active
+\sudo service tor start
+
+#test 
+curl --socks5-hostname 127.0.0.1:9050 https://check.torproject.org | grep "Congratulations"
+
+
+# to run
+python3 scraper_tor_wsl_retry.py
