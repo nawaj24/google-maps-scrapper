@@ -10,9 +10,9 @@ from urllib.parse import urljoin, urlparse
 # =====================
 # CONFIG
 # =====================
-INPUT_FILE  = "output/leads_WITH_website.csv"
-OUTPUT_FILE = "output/leads_WITH_emails.csv"
-EXCEL_FILE  = "output/leads_final.xlsx"
+INPUT_FILE  = "output/dallas_food_businesses_03.csv"
+OUTPUT_FILE = "result/campaign_3.csv"
+EXCEL_FILE  = "result/campaign_3.xlsx"
 BATCH_SIZE  = 10
 CONCURRENCY = 5
 
